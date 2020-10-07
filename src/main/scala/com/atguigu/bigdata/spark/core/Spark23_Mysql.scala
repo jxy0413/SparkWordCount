@@ -1,4 +1,5 @@
-package com.atguigu.bigdata.spark
+package com.atguigu.bigdata.spark.core
+
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**

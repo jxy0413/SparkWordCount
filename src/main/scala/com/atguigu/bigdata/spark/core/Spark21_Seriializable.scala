@@ -1,4 +1,4 @@
-package com.atguigu.bigdata.spark
+package com.atguigu.bigdata.spark.core
 
 /**
   * Created by jxy on 2020/10/5 0005 11:18

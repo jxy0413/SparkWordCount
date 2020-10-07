@@ -1,4 +1,4 @@
-package com.atguigu.bigdata.spark
+package com.atguigu.bigdata.spark.core
 
 import java.util
 import org.apache.spark.util.AccumulatorV2

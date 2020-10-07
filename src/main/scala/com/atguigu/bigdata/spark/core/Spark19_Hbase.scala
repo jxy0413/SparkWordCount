@@ -1,4 +1,4 @@
-package com.atguigu.bigdata.spark
+package com.atguigu.bigdata.spark.core
 
 import org.apache.hadoop.hbase.{CellUtil, HBaseConfiguration}
 import org.apache.hadoop.hbase.client.{Put, Result}
