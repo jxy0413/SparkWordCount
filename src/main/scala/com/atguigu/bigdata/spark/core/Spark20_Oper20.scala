@@ -12,7 +12,7 @@ object Spark20_Oper20 {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Rdd").setMaster("local[*]")
     val sc = new SparkContext(conf)
-    val lines =  sc.textFile("file://" + ClassLoader.getSystemResource("1.txt"))
+    val lines =  sc.textFile("file://" + ClassLoader.getSystemResource("in/1.txt"))
     val proviceRdd = lines.map(line => {
       val splits = line.split(" ")
       ((splits(1), splits(4)), 1)
